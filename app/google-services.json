@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "852864084421",
+    "firebase_url": "https://farmicition-cbd36.firebaseio.com",
+    "project_id": "farmicition-cbd36",
+    "storage_bucket": "farmicition-cbd36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852864084421:android:6854c61d8b72992e",
+        "android_client_info": {
+          "package_name": "com.example.aashna.farmiction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852864084421-0m8lhc2ki68rbcakipiu38vs9isd3nva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeFFmgkuaNcm3xOXrg30BqYyZ3oxtwNII"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

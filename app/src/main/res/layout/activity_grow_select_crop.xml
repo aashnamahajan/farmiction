@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_grow_select_crop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aashna.farmiction.grow_select_crop"
+    android:orientation="vertical">
+
+    <Button
+        android:text="Rice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/button"
+        android:onClick="upload"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="Carrot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/button2"
+        android:onClick="upload2"
+        android:textAlignment="center" />
+    <Button
+        android:text="Sugarcane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/button3"
+        android:onClick="upload3"
+        android:textAlignment="center" />
+</LinearLayout>

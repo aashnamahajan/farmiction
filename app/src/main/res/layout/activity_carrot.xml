@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.hp.credainatcon17.AboutNatcon">
+    <ViewFlipper
+        android:id="@+id/viewFlipper_aboutNatcon"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="40%"
+        android:autoStart="true"
+        android:flipInterval="2000"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pranika"
+            android:adjustViewBounds="false"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/farm"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/farming1"
+            android:scaleType="centerCrop" />
+
+    </ViewFlipper>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewFlipper_aboutNatcon">
+        <TextView
+            android:padding="16dp"
+            android:layout_below="@id/viewFlipper_aboutNatcon"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="carrot: \n\n
+temp-15 to 18  \n\n
+        min-10  \n\n
+soil-loamy soil  \n\n
+rainfall-2 cm/week  \n\n
+season-winter  \n\n
+harvest time-70 to 80 days  \n\n
+planting month-August  \n\n
+irrigation-once in 5 days   \n\n
+no pesticide required  \n\n"/> </ScrollView>
+
+
+</android.support.percent.PercentRelativeLayout>
+
+

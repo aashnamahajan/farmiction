@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aashna.farmiction.Mycrops">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:text="FERTILIZER:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/textView_mycrops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:hint="data"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_marginTop="60dp"
+        android:text="LABOUR:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView_mycrops1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_marginTop="60dp"
+        android:hint="data"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAX TEMP:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_marginTop="90dp" />
+
+
+    <TextView
+        android:id="@+id/textView_mycrops2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="data"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_marginTop="90dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MIN TEMP:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_marginTop="120dp" />
+    <TextView
+        android:id="@+id/textView_mycrops3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="data"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_marginTop="120dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RAINFALL:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_marginTop="150dp" />
+    <TextView
+        android:id="@+id/textView_mycrops4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="data"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_marginTop="150dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SURFACE:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_marginTop="180dp" />
+
+    <TextView
+        android:id="@+id/textView_mycrops8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_marginTop="180dp"
+        android:hint="data"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEASON:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_marginTop="210dp" />
+
+    <TextView
+        android:id="@+id/textView_mycrops6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_marginTop="210dp"
+        android:hint="data"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOIL:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_marginTop="240dp" />
+
+    <TextView
+        android:id="@+id/textView_mycrops7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_marginTop="240dp"
+        android:hint="data"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:text="RICE  STAGE1"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:text="DAILY CHART"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

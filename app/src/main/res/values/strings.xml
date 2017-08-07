@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Farmiction</string>
+    <string name="title_activity_signup">Signup</string>
+
+    <string-array name="header_title">
+        <item> Weather </item>
+        <item> Grow Crop </item>
+        <item> My Crop </item>
+        <item> CROP LIBRARY </item>
+        <item> ASK EXPERT </item>
+        <item> HELP </item>
+    </string-array>
+
+    <string-array name="crops_name">
+        <item> rice </item>
+        <item> carrot </item>
+        <item> wheat </item>
+        <item> sugarcane </item>
+    </string-array>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-MAIL ID"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <EditText
+        android:id = "@+id/id"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:hint="enter id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <EditText
+        android:id = "@+id/password"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:inputType = "textPassword"
+        android:hint="enter password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CITY"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:id = "@+id/city"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:hint="enter city"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISTRICT"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <EditText
+        android:id = "@+id/district"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:hint="enter district"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginBottom="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignBaseline="@+id/register_btn"
+        android:layout_alignBottom="@+id/register_btn"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+
+</RelativeLayout>
